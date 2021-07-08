@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008165962695A76C00C889C4 /* MicroAgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165952695A76C00C889C4 /* MicroAgeApp.swift */; };
+		008165982695A76C00C889C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165972695A76C00C889C4 /* ContentView.swift */; };
+		0081659A2695A76D00C889C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008165992695A76D00C889C4 /* Assets.xcassets */; };
+		0081659D2695A76D00C889C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0081659C2695A76D00C889C4 /* Preview Assets.xcassets */; };
+		008165A72695A9BE00C889C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165A62695A9BE00C889C4 /* HomeView.swift */; };
+		008165AA2695BA7F00C889C4 /* SwiftUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165A92695BA7F00C889C4 /* SwiftUIExtensions.swift */; };
+		008165AC2695BB0800C889C4 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165AB2695BB0800C889C4 /* AstronautView.swift */; };
+		008165AE2695BB2D00C889C4 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165AD2695BB2D00C889C4 /* BadgeView.swift */; };
+		008165B02695BB4100C889C4 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165AF2695BB4100C889C4 /* MissionView.swift */; };
+		008165B22695BB5900C889C4 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165B12695BB5900C889C4 /* TeamView.swift */; };
+		008165B42695BB6500C889C4 /* UpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165B32695BB6500C889C4 /* UpdatesView.swift */; };
+		008165B62695BD9A00C889C4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165B52695BD9A00C889C4 /* Coordinator.swift */; };
+		008165B82695C19800C889C4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165B72695C19800C889C4 /* RootView.swift */; };
+		008165BA2696FB4300C889C4 /* TeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165B92696FB4300C889C4 /* TeamMember.swift */; };
+		008165BC2697041F00C889C4 /* TeamMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008165BB2697041F00C889C4 /* TeamMemberView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008165922695A76C00C889C4 /* MicroAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008165952695A76C00C889C4 /* MicroAgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroAgeApp.swift; sourceTree = "<group>"; };
+		008165972695A76C00C889C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		008165992695A76D00C889C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0081659C2695A76D00C889C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0081659E2695A76D00C889C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008165A62695A9BE00C889C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		008165A92695BA7F00C889C4 /* SwiftUIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExtensions.swift; sourceTree = "<group>"; };
+		008165AB2695BB0800C889C4 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		008165AD2695BB2D00C889C4 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		008165AF2695BB4100C889C4 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		008165B12695BB5900C889C4 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		008165B32695BB6500C889C4 /* UpdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesView.swift; sourceTree = "<group>"; };
+		008165B52695BD9A00C889C4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		008165B72695C19800C889C4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		008165B92696FB4300C889C4 /* TeamMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMember.swift; sourceTree = "<group>"; };
+		008165BB2697041F00C889C4 /* TeamMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMemberView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0081658F2695A76C00C889C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008165892695A76C00C889C4 = {
+			isa = PBXGroup;
+			children = (
+				008165942695A76C00C889C4 /* MicroAge */,
+				008165932695A76C00C889C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008165932695A76C00C889C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008165922695A76C00C889C4 /* MicroAge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008165942695A76C00C889C4 /* MicroAge */ = {
+			isa = PBXGroup;
+			children = (
+				008165A82695BA6200C889C4 /* Support */,
+				008165A52695A88F00C889C4 /* Model */,
+				008165A42695A88300C889C4 /* Views */,
+				008165952695A76C00C889C4 /* MicroAgeApp.swift */,
+				008165972695A76C00C889C4 /* ContentView.swift */,
+				008165992695A76D00C889C4 /* Assets.xcassets */,
+				0081659E2695A76D00C889C4 /* Info.plist */,
+				0081659B2695A76D00C889C4 /* Preview Content */,
+			);
+			path = MicroAge;
+			sourceTree = "<group>";
+		};
+		0081659B2695A76D00C889C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0081659C2695A76D00C889C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		008165A42695A88300C889C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				008165A62695A9BE00C889C4 /* HomeView.swift */,
+				008165AB2695BB0800C889C4 /* AstronautView.swift */,
+				008165AD2695BB2D00C889C4 /* BadgeView.swift */,
+				008165AF2695BB4100C889C4 /* MissionView.swift */,
+				008165B12695BB5900C889C4 /* TeamView.swift */,
+				008165B32695BB6500C889C4 /* UpdatesView.swift */,
+				008165B72695C19800C889C4 /* RootView.swift */,
+				008165BB2697041F00C889C4 /* TeamMemberView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		008165A52695A88F00C889C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				008165B52695BD9A00C889C4 /* Coordinator.swift */,
+				008165B92696FB4300C889C4 /* TeamMember.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		008165A82695BA6200C889C4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				008165A92695BA7F00C889C4 /* SwiftUIExtensions.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008165912695A76C00C889C4 /* MicroAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008165A12695A76D00C889C4 /* Build configuration list for PBXNativeTarget "MicroAge" */;
+			buildPhases = (
+				0081658E2695A76C00C889C4 /* Sources */,
+				0081658F2695A76C00C889C4 /* Frameworks */,
+				008165902695A76C00C889C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroAge;
+			productName = MicroAge;
+			productReference = 008165922695A76C00C889C4 /* MicroAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0081658A2695A76C00C889C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					008165912695A76C00C889C4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 0081658D2695A76C00C889C4 /* Build configuration list for PBXProject "MicroAge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008165892695A76C00C889C4;
+			productRefGroup = 008165932695A76C00C889C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008165912695A76C00C889C4 /* MicroAge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008165902695A76C00C889C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0081659D2695A76D00C889C4 /* Preview Assets.xcassets in Resources */,
+				0081659A2695A76D00C889C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0081658E2695A76C00C889C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008165B02695BB4100C889C4 /* MissionView.swift in Sources */,
+				008165BC2697041F00C889C4 /* TeamMemberView.swift in Sources */,
+				008165AE2695BB2D00C889C4 /* BadgeView.swift in Sources */,
+				008165BA2696FB4300C889C4 /* TeamMember.swift in Sources */,
+				008165B62695BD9A00C889C4 /* Coordinator.swift in Sources */,
+				008165A72695A9BE00C889C4 /* HomeView.swift in Sources */,
+				008165B22695BB5900C889C4 /* TeamView.swift in Sources */,
+				008165AA2695BA7F00C889C4 /* SwiftUIExtensions.swift in Sources */,
+				008165982695A76C00C889C4 /* ContentView.swift in Sources */,
+				008165962695A76C00C889C4 /* MicroAgeApp.swift in Sources */,
+				008165B42695BB6500C889C4 /* UpdatesView.swift in Sources */,
+				008165AC2695BB0800C889C4 /* AstronautView.swift in Sources */,
+				008165B82695C19800C889C4 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0081659F2695A76D00C889C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008165A02695A76D00C889C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008165A22695A76D00C889C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MicroAge/Preview Content\"";
+				DEVELOPMENT_TEAM = ZYM8DA54T6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MicroAge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpdbailey.MicroAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		008165A32695A76D00C889C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MicroAge/Preview Content\"";
+				DEVELOPMENT_TEAM = ZYM8DA54T6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MicroAge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpdbailey.MicroAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0081658D2695A76C00C889C4 /* Build configuration list for PBXProject "MicroAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0081659F2695A76D00C889C4 /* Debug */,
+				008165A02695A76D00C889C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008165A12695A76D00C889C4 /* Build configuration list for PBXNativeTarget "MicroAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008165A22695A76D00C889C4 /* Debug */,
+				008165A32695A76D00C889C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0081658A2695A76C00C889C4 /* Project object */;
+}
