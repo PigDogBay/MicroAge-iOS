@@ -13,6 +13,7 @@ struct MicroAgeApp: App {
     var body: some Scene {
         WindowGroup {
             RootView()
+                .statusBar(hidden: true)
                 .environmentObject(coordinator)
         }
     }
